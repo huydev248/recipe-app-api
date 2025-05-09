@@ -1,6 +1,7 @@
 from django.test import SimpleTestCase
 from app.calc import add, subtract
 
+
 class CalcTest(SimpleTestCase):
     def test_add_number(self):
         res = add(6, 4)
