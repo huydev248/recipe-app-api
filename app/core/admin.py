@@ -3,7 +3,7 @@ from django.contrib.auth.admin import UserAdmin as BaseUserAdmin
 
 from django.utils.translation import gettext_lazy as _
 
-from core.models import Recipe, User
+from core.models import Recipe, User, Tag
 
 
 class UserAdmin(BaseUserAdmin):
@@ -57,3 +57,4 @@ class UserAdmin(BaseUserAdmin):
 
 admin.site.register(User, UserAdmin)
 admin.site.register(Recipe)
+admin.site.register(Tag)
