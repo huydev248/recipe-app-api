@@ -5,4 +5,4 @@ recipe-app-project
 # superuser
 
 email: admin@example.com
-password: sample123
+password: admin123
